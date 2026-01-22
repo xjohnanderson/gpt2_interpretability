@@ -82,12 +82,16 @@ python main.py
 
 ```
 
-## 📊 Expected Outputs
+## 📊 Outputs
 
 The script generates two primary visualizations in the `results/` folder:
 
 1. **Attention Magnitude by POS:** Shows which layers' attention heads are most active for specific word types.
+   <img width="1494" height="790" alt="image" src="https://github.com/user-attachments/assets/2e57d146-6c0b-429b-b658-2d14287d5fda" />
+
 2. **MLP Magnitude by POS:** Highlights where the feed-forward networks provide the most refinement to the residual stream.
+   <img width="1494" height="790" alt="image" src="https://github.com/user-attachments/assets/536d94af-3a4f-4abf-877a-0f0bec6ffb42" />
+
 
 ---
 
